@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>CRUD de Usuarios</h1>
+    <h1>CRUD</h1>
     <form @submit.prevent="addUser">
       <input v-model="newUser.name" placeholder="Nombre" />
       <input v-model="newUser.email" placeholder="Email" />
-      <button type="submit">Agregar use</button>
+      <button type="submit">Agregar user</button>
     </form>
     <ul>
       <li v-for="(user, index) in users" :key="index">
