@@ -10,7 +10,7 @@
       <li v-for="(user, index) in users" :key="index">
         {{ user.name }} - {{ user.email }}
         <button @click="editUser(index)">Edit</button>
-        <button @click="deleteUser(index)">Delee</button>
+        <button @click="deleteUser(index)">Deleet</button>
       </li>
     </ul>
   </div>
