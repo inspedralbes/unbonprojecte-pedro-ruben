@@ -4,7 +4,7 @@
     <form @submit.prevent="addUser">
       <input v-model="newUser.name" placeholder="Nombre" />
       <input v-model="newUser.email" placeholder="Email" />
-      <button type="submit">Agregar usuario</button>
+      <button type="submit">Agregar use</button>
     </form>
     <ul>
       <li v-for="(user, index) in users" :key="index">
